@@ -1,0 +1,21 @@
+case,query,retrieved_ids,ground_truth_ids,relevant_hits,precision_at_3
+1,How do I make an isolated Python environment for one project?,PY002;PY001;PY003,PY001;PY002;PY003,3,1.0
+2,How can I capture my active pip dependencies in a file?,PY006;PY004;PY002,PY004;PY005;PY006,2,0.6666666666666666
+3,Can I merge two Python mappings and prefer the right-hand values?,PY008;PY007;PY009,PY007;PY008;PY009,3,1.0
+4,How do I undo an unpushed commit without throwing away its edits?,GIT001;GIT002;GIT003,GIT001;GIT002;GIT003,3,1.0
+5,What command changes the name of my current Git branch?,GIT006;GIT005;GIT004,GIT004;GIT005;GIT006,3,1.0
+6,How can I put unfinished tracked changes aside and restore them later?,GIT007;GIT003;GIT001,GIT007;GIT008;GIT009,1,0.3333333333333333
+7,How can a host machine reach a web port inside a Docker container?,DOCKER001;DOCKER002;DOCKER003,DOCKER001;DOCKER002;DOCKER003,3,1.0
+8,Where should a container store database files so they survive removal?,DOCKER004;DOCKER005;DOCKER007,DOCKER004;DOCKER005;DOCKER006,2,0.6666666666666666
+9,Which Docker cleanup command frees disk space from unused resources?,DOCKER008;DOCKER009;DOCKER007,DOCKER007;DOCKER008;DOCKER009,3,1.0
+10,Find email addresses that show up repeatedly in my SQL users table.,SQL003;SQL002;SQL001,SQL001;SQL002;SQL003,3,1.0
+11,When are database indexes useful and what do they cost?,SQL006;SQL005;SQL004,SQL004;SQL005;SQL006,3,1.0
+12,How do I fetch later pages efficiently from a large SQL result set?,API004;SQL009;SQL007,SQL007;SQL008;SQL009,2,0.6666666666666666
+13,How do I give a cloud workload only the access it needs?,CLOUD002;CLOUD004;CLOUD001,CLOUD001;CLOUD002;CLOUD003,2,0.6666666666666666
+14,How do I prevent anonymous users from reading my cloud storage bucket?,CLOUD005;CLOUD004;CLOUD006,CLOUD004;CLOUD005;CLOUD006,3,1.0
+15,Where should I investigate when cloud application logs are missing?,CLOUD008;CLOUD009;CLOUD007,CLOUD007;CLOUD008;CLOUD009,3,1.0
+16,Should a REST API secret be sent in a URL or an HTTPS header?,API002;API001;API003,API001;API002;API003,3,1.0
+17,How does a client follow a continuation token to get the next API results?,API006;API007;API004,API004;API005;API006,2,0.6666666666666666
+18,What backoff should I use after the server returns HTTP 429?,API007;API009;API008,API007;API008;API009,3,1.0
+19,How can I store and reload a list of installed Python packages?,PY004;PY003;PY002,PY004;PY005;PY006,1,0.3333333333333333
+20,How can I temporarily shelve edits while I switch to another Git branch?,GIT008;GIT007;GIT004,GIT007;GIT008;GIT009,2,0.6666666666666666
